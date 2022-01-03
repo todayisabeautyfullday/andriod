@@ -1,6 +1,38 @@
-MainWidget:
+BoxLayoutExample:
+
+<BoxLayoutExample>:
+    orientation: "horizontal"
+    Button:
+        text: "Hello world"
+        size: "100dp", "80dp"
+        pos: "100dp", "200dp"
+        color: 1, 0, 0, 100
+
+    BoxLayout:
+        orientation: "vertical"
+        spacing: "10dp"
+        Button:
+            text: "B1"
+        Button:
+            text: "B1"
+        Button:
+            text: "B1"
+        Button:
+            text: "B1"
+
+
+    Button:
+        text: "third button"
+        color: 1, 0, 1, 100
+        size_hint: 0.5, 0.5
+        # y, center_y , top
+        # x, center_x , right
+        pos_hint: {"center_y": 0.5}
+
+
 
 <MainWidget>:
+    orientation: "vertical"
     Button:
         text: "Hello world"
         size: "100dp", "80dp"
