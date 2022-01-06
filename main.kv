@@ -5,8 +5,9 @@ WidgetsExample:
     cols:2
 
     Button:
-        text: "Click to count!"
+        text: "Count"
         on_press: root.on_button_click()
+        disabled: not root.enable_counter
         size_hint: 0.1, 0.1
         pos_hint: 0.1, 0.1
     Label:

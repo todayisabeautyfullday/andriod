@@ -58,7 +58,6 @@ class Ip_app(App):
     def callback(self, action):
         self.greeting.text = "Hello" + " " + self.user_name.text + "!"
         
-
 if __name__ == "__main__":
     Ip_app().run()
 
