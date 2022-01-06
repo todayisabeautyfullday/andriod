@@ -1,4 +1,3 @@
-from typing import Text
 from kivy.app import App
 from kivy.uix.behaviors import button
 from kivy.uix.image import Image
