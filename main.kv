@@ -1,0 +1,21 @@
+WidgetsExample:
+
+<WidgetsExample>:
+    rows:2
+    cols:2
+
+    Button:
+        text: "Click to count!"
+        on_press: root.on_button_click()
+        size_hint: 0.1, 0.1
+        pos_hint: 0.1, 0.1
+    Label:
+        text: root.text_in_label
+        font_name: "resources/Lcd.ttf"
+        font_size: "90dp"
+        color: 1, 0.5 , 1 , 1
+    ToggleButton:
+        text: "OFF"
+        on_state: root.on_toggle_button_state(self)
+        size_hint: 0.25 , 0.25
+        pos_hint: 0.45, 0.45
