@@ -24,13 +24,8 @@ class WidgetsExample(GridLayout):
             togle.text = "ON"
             self.enable_counter = True
 
-# class CanvasExample1(Widget):
-#     pass
-
 class Main(App):
     pass
-
-
 
 
 

@@ -1,24 +1,18 @@
 MainWidget:
 
-
 <GridLayoutExample>:
     rows: 4
     padding: "20dp"
     spacing: "5dp" 
-
     Label:
         text: "A"
         size_hint: 0.2, 0.2
         color: 0, 1, 1, 100
-        
     BoxLayoutExample:
     Button:
         text: "C"
     Button:
         text: "D"
-
-
-    
 
 <BoxLayoutExample>:
     orientation: "horizontal"
@@ -39,27 +33,8 @@ MainWidget:
             text: "B1"
         Button:
             text: "B1"
-
-
-    Button:
+   Button:
         text: "third button"
         color: 1, 0, 1, 100
         size_hint: 0.5, 0.5
-        # y, center_y , top
-        # x, center_x , right
         pos_hint: {"center_y": 0.5}
-
-
-
-<MainWidget>:
-    orientation: "vertical"
-    Button:
-        text: "Hello world"
-        size: "100dp", "80dp"
-        pos: "100dp", "200dp"
-        color: 1, 0, 0, 100
-    Button:
-        text: "second button"
-        size: "100dp", "80dp"
-        pos: "200dp", "300dp"
-        color: 1, 0, 1, 100
